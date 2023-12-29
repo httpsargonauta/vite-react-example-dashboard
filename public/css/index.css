@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+html:hover::-webkit-scrollbar-thumb {
+  background-color: #09c;
+}

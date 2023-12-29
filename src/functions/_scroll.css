@@ -1,0 +1,17 @@
+.scroll {
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+  background-color: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scroll:hover::-webkit-scrollbar-thumb {
+  background-color: #09c;
+}
